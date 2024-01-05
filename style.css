@@ -1,0 +1,110 @@
+
+
+.cont{
+    
+    margin: 0px;
+  padding: 0px 0px;
+   font-weight: bold;
+   font-size: x-large;
+   font-style: italic;
+   color: aqua;
+   background-color: black;
+
+
+}
+.arrayinputs{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 0px;
+    place-content: center;
+}
+.arrayinputs #size{
+    padding: 5px 0px;
+}
+.arrayinputs #speed{
+    padding: 5px 0px;
+}
+ #generate{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 20px 10px 23px 23px;
+    padding-left: 20%;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+}
+ #generate:hover{
+    cursor: pointer;
+}
+ .header .navheading{
+    text-transform: uppercase;
+    display: flex;
+    color: blue;
+
+}
+#but button{
+    border: none;
+    outline: none;
+  background-color: transparent;
+  background: none;
+  color:white;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  padding: 23px 50px 20px 20px;
+}
+#bars-container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    height:200px;
+    /* background-color: rgb(188, 82, 82); */
+}
+.bar{
+    width: 30px;
+    margin:  0 2px;
+    background-color: black;
+    /* transition:  0.3s ease-in-out; */
+}
+.navheading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: blue;
+}
+p{
+    display: inline;
+}
+#Info_Cont1{
+    margin: 20px;
+}
+#Info_Cont2{
+    margin: 23px;
+}
+.Pair_Definitions
+{
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    
+}
+.Complexity_Containers{
+    display: flex;
+    justify-content: space-between;
+}
+.Sub_Heading{
+    font-weight: bold;
+}
+
+
+
